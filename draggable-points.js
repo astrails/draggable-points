@@ -76,12 +76,12 @@
          * Handler for mouseup
          */
         function drop(e) {
-            if (dragPoint) {
-                if (e) {
-                    dragPoint.update(getNewPos(e));
-                }
-                dragPoint.firePointEvent('drop');
-            }
+            //if (dragPoint) {
+                //if (e) {
+                    //dragPoint.update(getNewPos(e));
+                //}
+                //dragPoint.firePointEvent('drop');
+            //}
             dragPoint = dragX = dragY = undefined;
         }
 
